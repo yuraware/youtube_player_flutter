@@ -15,7 +15,7 @@ dependencies:
     git:
       url: git@github.com:yuraware/flutter_inappwebview.git
       path: flutter_inappwebview
-      ref: fix-contentrules-new
+      ref: webview-fix
 
 dev_dependencies:
   flutter_test:
