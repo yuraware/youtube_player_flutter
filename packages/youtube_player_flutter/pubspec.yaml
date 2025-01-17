@@ -11,7 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview: ^6.1.1+1
+  flutter_inappwebview:
+    git:
+      url: git@github.com:yuraware/flutter_inappwebview.git
+      path: flutter_inappwebview
+      ref: fix-contentrules-new
 
 dev_dependencies:
   flutter_test:
